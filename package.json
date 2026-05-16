@@ -1,0 +1,26 @@
+{
+  "name": "opencode-testing-agent",
+  "version": "0.1.0",
+  "description": "A smart testing agent for OpenCode. Auto-detects your framework (pytest, jest, go test, vitest) and writes + runs tests for you.",
+  "main": "src/index.ts",
+  "type": "module",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "testing",
+    "pytest",
+    "jest",
+    "vitest",
+    "go-test",
+    "ai-agent"
+  ],
+  "author": "Shrikant Chiddarwar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/opencode-testing-agent"
+  },
+  "peerDependencies": {
+    "opencode-ai": ">=1.0.0"
+  }
+}
